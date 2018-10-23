@@ -1,0 +1,77 @@
+body{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main div.recuperar-clave{
+    margin-top: 150px;
+    border: 1px solid #888;
+    text-align: center;
+    height: 600px;
+}
+
+main div.recuperar-clave #header{
+    max-height: 150px;
+    padding: 10px;
+    border-bottom: 2px solid #888; 
+}
+
+main div.recuperar-clave #header div{
+    width: 100%;
+    text-align: center;
+}
+
+main div.recuperar-clave #header img{
+    height: 70px;
+}
+
+main div.recuperar-clave #header h1{
+    margin: 0;
+}
+
+div.recuperar-clave h2{
+    color: #333;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+div.recuperar-clave p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+div.recuperar-clave section div:last-of-type{
+    margin-top: 20px;
+}
+
+div.recuperar-clave .form-group{
+    margin: 15px;
+    text-align: center;
+}
+
+div.recuperar-clave label{
+    color: #666;
+}
+
+div.recuperar-clave input{
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    background-color: #fafafa;
+}
+div.recuperar-clave button{
+    width: 60%;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: .375em .75em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: .25em;
+}

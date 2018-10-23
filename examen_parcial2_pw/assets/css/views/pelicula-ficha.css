@@ -1,0 +1,56 @@
+.banner{
+    width: 100%;
+    background-image: url(../../images/peliculas/1/banner.jpg);
+    height: 200px;
+    background-color: purple;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-y: 10%;
+    border-bottom: 3px solid #888;
+    margin-bottom: 50px;
+    opacity: .5;
+}
+.raiting .material-icons{
+    color: yellowgreen;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    width: 17px;
+}
+
+section.contenido label{
+    font-weight: bold;
+}
+
+section.contenido .form-group input{
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+section.contenido .casting ul{
+    margin: 0;
+    list-style: none;
+}
+section.contenido .casting ul li{
+    padding: 8px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+    .casting ul li span{
+        font-weight: bolder;
+        letter-spacing: 1.6px;
+    }
+
+section.galeria{
+    margin-top: 50px;
+}
+
+section.galeria .card-img-top{
+    height: 300px;
+}

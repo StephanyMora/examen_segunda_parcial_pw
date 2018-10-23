@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies AF</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/shared/libs/base.css">
+    <link rel="stylesheet" href="assets/css/shared/libs/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/views/recuperar_clave.css">
+
+</head>
+
+<body>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-8 col-12 mx-auto recuperar-clave">
+                <header id="header">
+                    <div>
+                        <img src="./assets/images/logo.png" title="MoviesAF" alt="MoviesAF">
+                        <h1>MoviesAF</h1>
+                    </div>
+                </header>
+                <form action="panel.htm">
+                    <section>
+                        <h2>Recuperar contraseña</h2>
+                        <p>
+                            Una vez que ingreses la información que se solicita y des clic en el botón "Recuperar", se
+                            te
+                            enviará un enlace a tu correo electrónico para recuperar tu cotraseña
+                        </p>
+                        <div class="form-group text-center">
+                            <label for="usuario">
+                                Nombre de usuario
+                            </label>
+                            <div class="col-12 col-md-8 mx-auto">
+                                <input type="text" id="usuario" name="usuario" class="form-control" id="" placeholder="hermit0"
+                                    required autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">
+                                Correo electrónico
+                            </label>
+                            <div class="mx-auto col-12 col-md-8">
+                                <input type="email" id="mail" name="mail" id="" class="form-control" placeholder="micorreo@ucol.mx"
+                                    required autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Recuperar</button>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

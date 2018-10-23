@@ -1,0 +1,32 @@
+body{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+main.container{
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-header ul{
+    list-style: none;
+}
+
+.section-header .material-icons{
+    font-size: 15px;
+}
+
+section.contenido{
+    margin-top: 40px;
+}
+
+
+section.contenido .material-icons{
+    font-size: 13px;
+}
+
+nav.route{
+    margin-top: -15px;
+}

@@ -1,0 +1,7 @@
+.table tr td .material-icons{
+    font-size: 13px;
+}
+
+.table tr td:last-child{
+    text-align: center;
+}

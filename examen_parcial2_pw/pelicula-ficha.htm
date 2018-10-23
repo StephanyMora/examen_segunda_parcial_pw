@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="assets/css/shared/libs/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/shared/libs/base.css">
+    <link rel="stylesheet" href="assets/css/views/pelicula-ficha.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+            <img src="assets/images/logo.png" class="" height="80px" alt="">
+            MoviesAF
+        </h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="peliculas.htm">
+                Peliculas
+                <span class="badge badge-dark">4</span>
+            </a>
+            <a class="p-2 text-dark" href="generos.htm">Géneros</a>
+            <a class="p-2 text-dark" href="rentas.htm">Rentas</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="login.htm">Cerrar sesión</a>
+    </div>
+
+    <nav class="route" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="panel.htm">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="#">Películas</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ficha</li>
+        </ol>
+    </nav>
+
+    <main class="container">
+        <div class="banner col-12"></div>
+        <div class="row section-header">
+            <div class="col-12 col-md-8">
+                <h1>Moana</h1>
+                <div class="raiting">
+                    <span class="material-icons">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul class="row">
+                    <li class="col-6">
+                        <a href="peliculas.htm" class="btn btn-info btn-sm">
+                            <span class="material-icons">arrow_back_ios</span> Atrás
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="contenido">
+            <div class="row">
+                <div class="form-group col-12">
+                    <label for="titulo">Título original</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="Moana: Un mar de aventuras">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-12 col-md-4">
+                    <label for="Duración">Duración</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="120 minutos">
+                    </div>
+                </div>
+                <div class="form-group col-12 col-md-4">
+                    <label for="País">País</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="Estados Unidos">
+                    </div>
+                </div>
+                <div class="form-group col-12 col-md-4">
+                    <label for="año">Año</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="2016">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-12 col-md-4">
+                    <label for="Género">Género</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="Aventura">
+                    </div>
+                </div>
+                <div class="form-group col-12 col-md-8">
+                    <label for="Directores">Directores</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" value="John Musker,Ron Clements,Don Hall,Chris Williams">
+                    </div>
+                </div>
+            </div>
+            <div class="row casting">
+                <div class="col-12">
+                    <label for="Casting">Casting</label>
+                    <ul class="col-12">
+                        <li class="col-12 col-md-6">
+                            Auli'i Cravalho <span>( Moana )</span>
+                        </li>
+                        <li class="col-12 col-md-6">
+                            Dwayne Johnson <span>( Maui )</span>
+                        </li>
+                        <li class="col-12 col-md-6">
+                            Rachel House <span>( Gramm tala )</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="card col-12 col-md-6">
+                <iframe class="card-img-top" src="https://www.youtube.com/embed/ZjlxiCDtNhg" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Trailer</h5>
+                    <p class="card-text">
+                        La historia se desarrolla hace dos milenios en unas islas del sur del Pacífico. La protagonista
+                        es Vaiana Waialiki, una joven que desea explorar el mundo navegando por el océano. Ella es la
+                        única hija de un importante capitán que pertenece a una familia con varias generaciones de
+                        marinos.
+                    </p>
+                    <a href="#" class="btn btn-primary">Rentar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top container">
+        <div class="row">
+            <div class="col-12 col-md">
+                <small class="d-block mb-3">&copy; 2017-2018</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                    <li><a class="text-muted" href="#">Random feature</a></li>
+                    <li><a class="text-muted" href="#">Team feature</a></li>
+                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="#">Another one</a></li>
+                    <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
